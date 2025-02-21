@@ -13,6 +13,7 @@ class Program
         Console.WriteLine("How old are you?");
         int age = int.Parse(Console.ReadLine());
 
-        //TODO: write to the console also the age        
+        //TODO: write to the console also the age
+        Console.WriteLine($"You are {age} years old.");
     }
 }
